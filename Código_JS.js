@@ -1,4 +1,4 @@
-		function processa_dia(day,month,year){
+function processa_dia(day,month,year){
 
     	//referência: 01/01/2017 - Domingo => para resto 0 (d-1);
     
@@ -37,9 +37,9 @@
     
         return (day+primeiro_resultado+segundo_resultado); 
     
-    	}
+}
 
-		function carrega(){
+function carrega(){
 
     	var data = new Date();
     
@@ -65,7 +65,8 @@
     
     	//document.write(segundo_resultado);
 
-		//document.write(nomedia[rest]);
+	//document.write(nomedia[rest]);
     
     	document.write("Você acessou o endereço "+window.location.href+" a(s) "+hora+" hora(s) e "+data.getMinutes()+" minuto(s) de "+nomedia[rest]+" - "+dia+"/"+mes+"/"+ano+".");
-    	}
+    
+}
